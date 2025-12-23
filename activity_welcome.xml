@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="#D59EFF">
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🍽️"
+        android:textSize="80sp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MESS MANAGEMENT"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#570E62"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Smart Meal Tracking &amp; Expense Management"
+        android:textSize="14sp"
+        android:textColor="#570E62"
+        android:layout_marginBottom="48dp" />
+
+
+
+    <Button
+        android:id="@+id/btnSignUp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Sign Up"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#da685d"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Log In"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:backgroundTint="#da685d"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnContact"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:text="Contact Us"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:backgroundTint="#da685d" />
+
+</LinearLayout>
